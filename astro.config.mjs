@@ -45,9 +45,8 @@ if (process.env.NODE_ENV === "development") {
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.site_url,
-
-	base: "/",
+	site: "https://Swpan2018.github.io",
+    base: "/Firefly/",
 	trailingSlash: "always",
 
 	// 图像优化配置
